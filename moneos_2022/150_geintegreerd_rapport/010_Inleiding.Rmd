@@ -1,20 +1,3 @@
----
-params:
-  hoofdstuk: "010_inleiding"
-knit: (function(inputFile, encoding) {
-        rmarkdown::render(inputFile,
-                          encoding=encoding,
-                          output_dir = paste0(rmarkdown::yaml_front_matter(inputFile)$params$hoofdstuk,
-                          "/output")
-                          )})
-style: INBO
-lang: nl
-floatbarrier: subsection
-
-output:
-  bookdown::pdf_document2: default
-
----
 
 
 ```{r 010-hoofdstuk, include=FALSE}
