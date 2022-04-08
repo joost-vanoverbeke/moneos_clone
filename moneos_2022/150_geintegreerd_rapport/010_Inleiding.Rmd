@@ -135,8 +135,8 @@ cap_indeling_schelde_estuarium <- "Ruimtelijke indeling van het Schelde-estuariu
 footnote_text <- "n.v.t. : Deel van Zeeschelde niet beschouwd in Evaluatiemethodiek. Zou onderdeel kunnen worden van Z7. Ook wordt het traject Tijarm Merelbeke-Zwijnaarde (getijde Zeeschelde) niet gerekend tot Zeeschelde I in de KRW indeling. Dit zou beter wel deel worden van deze zone."
 
 tabel_indeling_schelde_estuarium %>%
-  mutate_all(~replace_na(., "")) %>% 
-  mutate_all(~cell_spec(., color = "black")) %>% 
+  mutate(across(everything(), ~as.character(.) %>% replace_na(""))) %>%
+  mutate(across(everything(), ~cell_spec(., color = "black"))) %>%
   {.[nrow(.)-1,c(1,2,5)] <- map(.[nrow(.)-1,c(1,2,5)],
                                 ~paste0(.x, footnote_marker_symbol(1)))
   .} %>% 
