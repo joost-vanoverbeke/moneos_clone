@@ -34,7 +34,7 @@ library(lubridate, warn.conflicts = FALSE)
 # pad naar figuren : pad_figuren
 
 #source("../pad.R")
-source(find_root_file("../pad.R", criterion = is_rstudio_project)) ## workaround computer Gunther
+source(find_root_file("../pad.R", criterion = is_rstudio_project))
 pad_data <- maak_pad(hoofdstuk, "data")
 pad_figuren <- maak_pad(hoofdstuk, "figuren")
 pad_tabellen <- maak_pad(hoofdstuk, "tabellen")
