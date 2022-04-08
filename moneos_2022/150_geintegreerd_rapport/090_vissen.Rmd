@@ -139,8 +139,8 @@ cap_gevangen_soorten <-
          ".")
 
 tabel_gevangen_soorten  %>% 
-  mutate_all(~replace_na(., "")) %>% 
-  mutate_all(~cell_spec(., color = "black")) %>%
+  mutate(across(everything(), ~as.character(.) %>% replace_na(""))) %>%
+  mutate(across(everything(), ~cell_spec(., color = "black"))) %>%
   knitr::kable(booktabs = TRUE,
                caption = cap_gevangen_soorten,
                align = c("l", rep("c", 12)),
