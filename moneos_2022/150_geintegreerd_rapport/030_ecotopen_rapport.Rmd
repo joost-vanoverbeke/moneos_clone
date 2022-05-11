@@ -51,7 +51,7 @@ __Alexander Van Braeckel & Amber Mertens__
 
 ## Inleiding
 
-Om de evolutie van de diversiteit van habitats op te volgen vormt de ecotopenkaart en haar basiskaarten, de fysiotopenkaart en een geomorfologische kaart het belangrijkste instrument. Deze kaarten worden voor de Beneden-Zeeschelde jaarlijks gemaakt, voor de Boven-Zeeschelde, Rupel en Durme is dit 3-jaarlijks. De ecotopenkaart 2019 van de Boven-Zeeschelde, Rupel en Durme zal gerapporteerd worden in volgende MONEOSrapport. 
+Om de evolutie van de diversiteit van habitats op te volgen vormt de ecotopenkaart en haar basiskaarten, de fysiotopenkaart en een geomorfologische kaart het belangrijkste instrument. Deze kaarten worden voor de Beneden-Zeeschelde jaarlijks gemaakt, voor de Boven-Zeeschelde, Rupel en Durme is dit 3-jaarlijks. Naast de ecotopenkaart 2020 van de Beneden-Zeeschelde zal ook de ecotopenkaart 2019 van de Boven-Zeeschelde, Rupel en Durme gerapporteerd worden in dit MONEOSrapport. 
 
 Een ecotopenkaart wordt samengesteld uit enerzijds een geomorfologische kaart en anderzijds een fysiotopenkaart Tabel \@ref(tab:030-tabel-1-tabel-klassen). Voor een uitgebreide bespreking van materiaal en methode word verwezen naar (Van Braeckel et al., 2019). In de ecotopenkaart worden natuurontwikkelingsprojecten (NOP’s) zoals ontpolderingen, GGG’s en dijkverleggingen opgenomen wanneer deze een open aansluiting hebben met de Beneden-Zeeschelde. 
 
