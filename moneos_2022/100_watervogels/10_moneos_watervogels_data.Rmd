@@ -50,7 +50,7 @@ pad_tabellen <- maak_pad(params$hoofdstuk, "tabellen")
 ```{r benodigde-seizoenen}
 
 vroegste_seizoen <- "1991/1992"
-laatste_seizoen <- "2020/2021"
+laatste_seizoen <- "2021/2022"
 
 seizoenen <-
   (vroegste_seizoen %>% str_sub(0, 4) %>% as.numeric):(laatste_seizoen %>% str_sub(0, 4) %>% as.numeric) %>% 
